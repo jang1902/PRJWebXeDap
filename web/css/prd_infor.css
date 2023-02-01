@@ -1,0 +1,219 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 16, 2022, 9:55:02 PM
+    Author     : ASUS
+*/
+.content_prdif {
+    width: 100%;
+    height: auto;
+}
+
+.container_prdif1 {
+    width: 1368px;
+    height: auto;
+    margin: auto;
+    /* background-color: gainsboro; */
+}
+.container_prdif2{
+    width: 1368px;
+    height: auto;
+    margin: auto;
+}
+
+.txt_big {
+    text-align: center;
+    font-size: 43px !important;
+    margin: auto;
+    padding: 0px auto;
+}
+
+.img_prd_ {
+    width: 980px;
+    margin: auto;
+}
+
+.img___ {
+    width: 100%;
+    margin: auto;
+}
+
+.left_prd {
+    width: 50%;
+    height: 200px;
+    /* background-color: cadetblue; */
+    float: left;
+}
+
+.small_txt {
+    line-height: 25px;
+    font-weight: 100;
+    width: 474px;
+    font-size: 16px;
+    padding-left: 50px;
+}
+
+.big_text {
+    font-size: 32px;
+    margin-top: 315px;
+    padding-left: 50px;
+}
+
+.img_right {
+    float: right;
+}
+
+.infor1 {
+    width: 100%;
+    height: 912px;
+    display: flex;
+}
+
+.img_infor {
+    width: 684px;
+}
+
+.sq {
+    display: flex;
+    width: 100%;
+    height: 760px;
+}
+
+.sq2 {
+    display: flex;
+    width: 100%;
+    height: 570px;
+}
+
+.sa {
+    width: 50%;
+    height: 100%;
+    background-color: #181818;
+}
+
+.sb {
+    width: 50%;
+    height: 100%;
+}
+
+.img_sb {
+    width: 759px;
+    height: 760px;
+}
+
+.img_sb2 {
+    width: 760px;
+    height: 760px;
+}
+
+.img_sb3 {
+    width: 759px;
+    height: 760px;
+}
+
+.big_text_sa {
+    color: white;
+    font-size: 60px;
+    margin-top: 220px;
+    padding-left: 80px;
+    font-weight: 700;
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+}
+
+.small_txt_sb {
+    color: white;
+    font-size: 20px;
+    width: 474px;
+    line-height: 25px;
+    padding-left: 80px;
+    font-weight: 100;
+}
+
+.container__2 {
+    margin: auto;
+    padding-top: 50px;
+    width: 1519px;
+    height: 2140px;
+}
+
+.sa2 {
+    width: 50%;
+    height: 100%;
+    background-color: #181818;
+}
+
+.big_text_sa2 {
+    color: white;
+    font-size: 60px;
+    margin-top: 142px;
+    padding-left: 80px;
+    font-weight: 700;
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+}
+
+.fff {
+    width: 100%;
+    height: 75px;
+    margin: auto;
+    background-color: white;
+    display: block;
+    padding-top: 25px;
+}
+
+.btn_add {
+    /* text-decoration: none; */
+    width: 40%;
+    height: 20px;
+    padding: 12px;
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+    /* position: absolute; */
+    text-align: center;
+    transition: all .5s;
+    padding-top: 18px;
+    top: 95px;
+    left: 85px;
+    border-radius: 29px;
+    margin: auto;
+    letter-spacing: 1px;
+}
+
+.btn_add:hover {
+    color: white;
+    background-color: black;
+}
+
+.txt_cpn {
+    width: 100%;
+    height: 50px;
+    margin-top: 40px;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+}
+
+.txt__cpn {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 13px 0px;
+    margin: 0 auto;
+}
+.tb{
+    /* border: 1px solid; */
+    margin-top: 10px;
+    color: #575757;
+}
+.td1{
+    padding: 3px 0px;
+    width: 330px;
+    font-weight: 700;
+    line-height: 25px;
+}

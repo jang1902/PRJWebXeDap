@@ -1,0 +1,154 @@
+.content_cart {
+    width: auto;
+    height: auto;
+}
+
+.container_cart {
+    width: 1368px;
+    height: auto;
+    margin: auto;
+    /* background-color: gainsboro; */
+}
+
+.txt_top_cart {
+    margin-top: 30px;
+    font-size: 35px;
+    font-weight: 700;
+    /* padding-left: 13px; */
+}
+
+.line1 {
+    height: 20px;
+    width: 100%;
+    margin: auto;
+    /* background-color: aquamarine; */
+    display: flex;
+    padding-top: 50px;
+    border-bottom: 1px solid black;
+    font-weight: 600;
+}
+
+.prd_it {
+    width: 500px;
+}
+
+.prd_prc {
+    width: 160px;
+    text-align: center;
+}
+
+.prd_qy {
+    width: 200px;
+}
+
+.prd_tl {
+    width: 100px;
+}
+
+.prd {
+    height: 180px;
+    width: 100%;
+    margin: 5px 0px;
+    padding-bottom: 5px;
+    /* background-color: azure; */
+    display: flex;
+    /* padding-top: 50px; */
+    border-bottom: 1px solid black;
+}
+
+.prd_name {
+    padding: 65px 50px 65px 25px;
+    width: 200px;
+    line-height: 25px;
+    font-weight: 600;
+}
+
+.prd_price {
+    padding: 65px 32px 65px 32px;
+    width: 100px;
+    line-height: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.prd_qtt {
+    margin: 60px 0px 75px 0px;
+    padding: 10px 0px 11px 20px;
+    width: 75px;
+    line-height: 25px;
+    font-weight: 600;
+    border: 1px solid;
+}
+
+.prd_total {
+    padding: 65px 65px 65px 65px;
+    width: 150px;
+    line-height: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.img_ {
+    padding: 8px 0px;
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+
+.total {
+    width: 100%;
+    height: 100px;
+    float: right;
+    text-align: right;
+    line-height: 23px;
+    font-weight: 600;
+    padding-top: 45px;
+}
+
+.txt_total {
+    font-size: 24px;
+    line-height: 35px;
+}
+
+.btn_total {
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+.btn_ctn {
+    text-decoration: none;
+    border: 1px solid black;
+    color: black;
+    width: 250px;
+    height: 18px;
+    padding: 10px;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 805px;
+    font-size: 13px;
+}
+.btn_ctn:hover{
+    color: white;
+    background-color: black;
+    transition: all .3s ease-in-out;
+}
+
+.btn_pay {
+    text-decoration: none;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    width: 250px;
+    padding: 10px;
+    font-weight: 600;
+    text-align: center;
+    height: 18px;
+    margin-left: 20px;
+    font-size: 13px;
+}
+.btn_pay:hover{
+    color: black;
+    background-color: transparent;
+    transition: all .3s ease-in-out;
+    border-color: black;
+}

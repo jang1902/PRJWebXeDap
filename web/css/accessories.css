@@ -1,0 +1,137 @@
+/* body{
+    font-size: 14px;
+    color: #111;
+    line-height: 1.15;
+} */
+
+#container_accessories{
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+.headline{
+    text-align: center;
+    margin: 100px 0;
+}
+
+.headline_small{
+    color: #181818;
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+.headline_big{
+    font-size: 82px;
+    line-height: 75px;
+    padding: 10px 20px;
+    margin-top: 0;
+    display: block;
+}
+
+.accessories_title{
+
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+    padding: 15px 0;
+
+}
+
+.accessories_title_name{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    margin: 0 auto;
+}
+
+ul.accessories {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    /* justify-content: space-between; */
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 0;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+ul.accessories li {
+    flex-basis: 25%;
+    padding-left: 8px;
+    padding-right: 8px;
+    box-sizing: border-box;
+}
+
+ul.accessories li .accessories-top .accessories-thumb{
+    display: block;
+    overflow: hidden;
+}
+
+ul.accessories li:hover .accessories-top .accessories-thumb img{
+    transform: scale(1.04);
+    transition: all .5s ease-in-out;
+}
+
+ul.accessories li .accessories-top .accessories-thumb img{
+    display: block;
+    box-sizing: border-box;
+}
+
+ul.accessories li img {
+    max-width: 100%;
+    height: auto;
+    background: #f5f5f5;
+    display: block;
+}
+
+ul.accessories li .accessories-info {
+    padding: 20px 0;
+}
+
+ul.accessories li .accessories-info .accessories-name{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+/* ul.products li:hover .product-info .product-name{
+
+} */
+
+ul.accessories li .accessories-info .accessories-price{
+    padding: 6px 0;
+    font-weight: 500;
+}
+
+.header__product {
+    width: 100%;
+    height: 50px;
+}
+
+.container__header__product {
+    width: 1519px;
+    height: 100%;
+    /* background-color: bisque; */
+    margin: auto;
+}
+/* :)) */
+.cool-link3 {
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+}
+
+.cool-link3::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0.6px;
+    background: #000;
+    transition: width .4s;
+}
+
+.cool-link3:hover::after {
+    width: 100%;
+}
